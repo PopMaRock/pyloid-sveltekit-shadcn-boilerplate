@@ -1,15 +1,14 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
-build/
-dist/
+dist
 wheels/
 *.egg-info
 
 # front
 node_modules
 dist-ssr
-build
+/build
 *.local
 build-front
 dist-front

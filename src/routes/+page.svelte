@@ -1,37 +1,31 @@
 <script>
-  import { baseAPI, rpc } from 'pyloid-js';
+  import { Button } from "$components/ui/button";
+  import { rpc } from "pyloid-js";
 
-  let message = '';
+  //these are demo functions. Can be deleted.
+  let message = "";
   async function handleGreet() {
-    message = await rpc.call('greet', { name: 'John' });
+    message = await rpc.call("greet", { name: "John" });
   }
-
   function createWindow() {
-    rpc.call('create_window');
+    rpc.call("create_window");
   }
 </script>
 
 <div id="root">
-  <div>
-    <img src="/pyloid_icon.png" class="logo pyloid" alt="Pyloid logo" />
-  </div>
-
-  <h1>Pyloid App</h1>
-
-  <div class="card">
-    <button class="action-button" onclick={handleGreet}>
-      Greet
-    </button>
-    <button class="action-button" onclick={createWindow}>
-      Create Window
-    </button>
-    <button class="action-button" onclick={() => baseAPI.close()}>
-      Close
-    </button>
-  </div>
-
-  <div>
-    <p>{message}</p>
-    <a href="https://pyloid.com">Visit Pyloid</a>
+  <div class="mx-16">
+    <div class="flex flex-wrap items-center justify-between mt-10 gap-4">
+      <h1 class="mt-10 text-4xl font-bold tracking-tight sm:text-6xl">Pyloid-Sveltekit-Shadcn</h1>
+      <p class="mt-6 text-lg leading-8">
+        Create a desktop app that looks like every other creation out there by forcing pyloid (against it's will) to leverage the power
+        of Svelte-Shadcn and sveltekit.<br/>
+        <br/><br/>
+        Note to self - SSR works in dev but probably won't work in production. Not to worry. Keep avoiding release and it won't matter.
+      </p>
+      <div class="mt-10 flex items-center gap-x-6">
+        <Button variant="secondary" class="text-sm font-semibold">Pyloid</Button>
+        <Button variant="default" href="#" class="text-sm font-semibold leading-6">Sveltekit <span aria-hidden="true">→</span></Button>
+      </div>
+    </div>
   </div>
 </div>
