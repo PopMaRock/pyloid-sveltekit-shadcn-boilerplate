@@ -1,7 +1,7 @@
 # Pyloid Sveltekit Shadcn Boilerplate
 
 This project was created using the Pyloid boilerplate.
-It is intended for my use because I can't be fucked typing/copying all this next time I want to start my next failed project.
+It is intended for my use because I can't be fucked typing/copying all this to start my next failed project.
 
 ![Alt text](static/example/example.png?raw=true "Example")
 
