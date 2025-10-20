@@ -13,7 +13,7 @@ build
 *.local
 build-front
 dist-front
-svelte-kit
+\.svelte-kit
 # Virtual environments
 .venv
 
