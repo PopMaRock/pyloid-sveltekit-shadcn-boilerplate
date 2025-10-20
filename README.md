@@ -1,7 +1,7 @@
 # Pyloid Sveltekit Shadcn Boilerplate
 
 This project was created using the Pyloid boilerplate.
-It is intended for my use because I can't be fucked typing/copying all this to start my next failed project.
+It is intended for my use because I can't be arsed typing/copying all this to start my next failed project.
 
 ![Alt text](static/example/example.png?raw=true "Example")
 
@@ -16,7 +16,8 @@ It is intended for my use because I can't be fucked typing/copying all this to s
 - Python 3.9 or higher
 - Node.js 20 or higher
 - uv package manager
-- adapter-node (replace to static and see vite.config.ts in pyloid create-app)
+
+adapter-node (replace to static and see vite.config.ts in pyloid create-app)
 
 ## Getting Started
 
