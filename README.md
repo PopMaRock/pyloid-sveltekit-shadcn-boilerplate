@@ -1,6 +1,7 @@
-# Pyloid App
+# Pyloid Sveltekit SSR Boilerplate
 
 This project was created using the Pyloid boilerplate.
+It is intended for my use because I can't be fucked typing/copying all this next time I want to start my next failed project.
 
 ## Prerequisites
 
@@ -45,4 +46,4 @@ The project consists of the following main directories and files:
 
 ## Support
 
-If you encounter any issues or have questions, please create an issue in the repository.
+No.
