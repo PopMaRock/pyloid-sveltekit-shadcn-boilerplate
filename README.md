@@ -1,13 +1,22 @@
-# Pyloid Sveltekit SSR Boilerplate
+# Pyloid Sveltekit Shadcn Boilerplate
 
 This project was created using the Pyloid boilerplate.
 It is intended for my use because I can't be fucked typing/copying all this next time I want to start my next failed project.
+
+![Alt text](static/example/example.png?raw=true "Example")
+
+### Uses...
+
+- Svelte-shadcn (bits.ui)
+- Lucide Icons
+- Typescript, Tailwind 4, Svelte5, Sveltekit 2.42, Vite 6.3.5
 
 ## Prerequisites
 
 - Python 3.9 or higher
 - Node.js 20 or higher
 - uv package manager
+- adapter-node (replace to static and see vite.config.ts in pyloid create-app)
 
 ## Getting Started
 
