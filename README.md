@@ -1,7 +1,7 @@
 # Pyloid Sveltekit Shadcn Boilerplate
 
 This project was created using the Pyloid boilerplate.<br/>
-It is intended for my use because I can't be arsed typing/copying all this to start my next failed project.<br/>
+It is intended for my use because I can't be arsed typing/copying all this to start my next failed project.<br/><br/>
 There is a 3 second delay (set in main.py) to launch as haven't bothered to put splashscreen in and need time to load vite server.
 
 ![Alt text](static/example/example.png?raw=true "Example")
