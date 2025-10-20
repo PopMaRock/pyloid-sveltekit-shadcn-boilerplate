@@ -11,13 +11,13 @@ It is intended for my use because I can't be arsed typing/copying all this to st
 - Lucide Icons
 - Typescript, Tailwind 4, Svelte5, Sveltekit 2.42, Vite 6.3.5
 
+adapter-node (replace with adapter-static and see vite.config.ts in pyloid create-app if you want static sveltekit)
+
 ## Prerequisites
 
 - Python 3.9 or higher
 - Node.js 20 or higher
 - uv package manager
-
-adapter-node (replace to static and see vite.config.ts in pyloid create-app)
 
 ## Getting Started
 
