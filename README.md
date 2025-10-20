@@ -53,6 +53,11 @@ The project consists of the following main directories and files:
 - `src/`: Directory where the frontend source code is stored.
 - `src-pyloid/`: Directory containing the backend source code for the Pyloid application.
 
+## More info on pyloid
+[Pyloid homepage](https://pyloid.com/)<br/>
+[Pyloid github](https://github.com/pyloid/pyloid)<br/>
+This project is not associated.
+
 ## Support
 
 No.
